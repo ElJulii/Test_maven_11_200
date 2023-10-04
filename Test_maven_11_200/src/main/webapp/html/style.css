@@ -1,0 +1,55 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: mediumorchid;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    color: white;
+}
+.form-main{
+    min-height: 100vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-content h3{
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+    color: darkred;
+    font-weight: 500;
+}
+.form-content form{
+    margin: 20px 0 10px;
+}
+.form-content .input-box{
+    margin: 15px;
+}
+.form-content .input-control{
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+.form-content .btn{
+    height: 45px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-content p{
+    text-align: center;
+}
